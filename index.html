@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>My Page</title>
+</head>
+
+<body>
+  <div class="page">
+    <nav class="page__menu page__custom-settings menu">
+      <ul class="menu__list r-list">
+        <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #1</a></li>
+        <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #2</a></li>
+        <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Option #3</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div element="top-content">
+    <h1><em>VIT</em></h1>
+    <h2>Welcome to <u>VIT Chennai</u>!</h2>
+    <h3><i>&#127926; <u>VIT Quality</u>, <u>Never Ending Policy</u> &#127926;</i></h3>
+  </div>
+  <div element="main-content">
+    <p>
+      <strong>VIT</strong> is a well-known private university in India with multiple campuses, and the Chennai campus is
+      one of its extensions.
+      Established with a commitment to providing <strong>quality education</strong>, <em>VIT Chennai</em> offers a diverse range of
+      undergraduate and
+      <span id="content">postgraduate programs in engineering, management, and other disciplines</span>.
+      <pre>
+        <strong>
+      The campus is <var>equipped with modern facilities</var>, <code>state-of-the-art infrastructure, 
+      and advanced laboratories to support academic and research activities</code>.
+      </strong>
+      </pre>
+      <strong>VIT</strong> is renowned for its emphasis on <i>innovation, research, and industry collaboration</i>,
+      contributing to the holistic development of its students.
+    </p>
+  </div>
+  <div element="video">
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+    </iframe>
+  
+  </div>
+  <div element="audio">
+    <audio controls>
+      <source src="file_example_MP3_700KB.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div element-="frame">
+    <!-- <frameset>
+      <frame name="top" src="https://www.w3schools.com">
+      <frame name="bottom" src="https://www.google.com">
+      <frame name="left" src="https://www.youtube.com">
+    </frameset> -->
+  </div>
+  <div element="Image">
+    <img src="vit-chennai (1).jpg" alt="VIT" height="600px" width="60%" >
+  </div>
+  <div element="middle-content">
+    <h3>Why Choose VIT Chennai?</h3>
+    <p>Well-known for its diversity, VIT Chennai offers various highly-efficient programs 
+      for <span id="ug">Undergraduate Students</span> as well as for 
+      <span id="pg">Postgraduate Students</span></p>
+    <ul>
+      <dt>Engineering programs</dt>
+      <dd><li>Computer Science</li></dd>
+      <dd><li>Electrical</li></dd>
+      <dd><li>Mechanical</li></dd>
+      <dd><li>Civil</li></dd>
+      <dt>Management programs</dt>
+      <dd><li>BBA</li></dd>
+      <dd><li>MBA</li></dd>
+      <li>Quality education</li>
+      <li>State-of-the-art infrastructure</li>
+    </ul>
+  </div>
+  <div element="form-content">
+    <h1>Admission Form!</h1>
+    <p id="form-content">Register NOW! For a safe and secure future!</p>
+    <form>
+      <label for="fname">First name:</label>
+      <input type="text" placeholder="Enter first name" id="fname" name="fname">
+      <label for="lname"><span class="tab"></span>Last name:</label>
+      <input type="text" placeholder="Enter last name" id="lname" name="lname"><br><br>
+      <h4>Choose your Gender!</h4>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female" checked="checked">
+      <label for="female">Female</label><br>
+      <input type="radio" id="CHN" name="gender" value="CHN">
+      <label for="CHN">Choose Not to Say</label>
+      <a href="misc.html">Click here to go the miscellanous page!</a><br><br>
+      <br><br>
+      <h4>Select the Course!</h4>
+      <label for="Btech">Choose a course:</label>
+      <select name="Btech" id="Btech">
+      <optgroup label="BTech Courses">
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="Mech"> Mech</option>
+        <option value="Civil">Civil</option>
+        
+      </optgroup>
+      <optgroup label="Other Courses">
+        <option value="BBA">BBA</option>
+        <option value="MBA">MBA</option>
+        <option value="LAW">LAW</option>
+      </optgroup>
+      </select>
+      <h4>Upload Certificates!</h4>
+      <input type="file" name="fileupload" placeholder="Upload File!"><br>
+      <h4>Enter Credentials!</h4>
+      <label for="uid">User ID:</label>
+      <input type="text" placeholder="Enter user ID" id="uid" name="uid">
+      <label for="password"><span class="tab"></span>Enter Password</label>
+      <input type="password" placeholder="Enter password" id="password" name="password"><br><br>
+      <h4>Would you like to tell us anything?</h4>
+      <textarea id="cmt" placeholder="Add your comment here!" name="cmt" rows="10" cols="50">
+      </textarea>
+    </form>
+  </div>
+  <div element="table-content">
+    <h2 id="table-content">Our Campuses</h2>
+    <div element="table">
+      <table>
+        <!-- <colgroup>
+          <col span="1" style="background-color:rgb(255, 255, 255)">
+          <col style="background-color:rgb(0, 0, 0)">
+          <col style="background-color: aliceblue;">
+        </colgroup> -->
+        <tr id="insider">
+          <th width="150px">State</th>
+          <th width="150px">Campus Name</th>
+          <th width="130px">Total Students</th>
+        </tr>
+        <tr id="inside-content">
+          <td rowspan="2">Tamil Nadu</td>
+          <td>VIT Chennai</td>
+          <td>10000+</td>
+        </tr>
+        <tr id="inside-content">
+          <td>VIT Vellore</td>
+          <td>30000+</td>
+        </tr>
+        <tr id="inside-content">
+          <td>Madhya Pradesh</td>
+          <td>VIT Bhopal</td>
+          <td>15000+</td>
+        </tr>
+        
+        <tr id="inside-content">
+          <td>Andhra Pradesh</td>
+          <td>VIT AP</td>
+          <td>15000+</td>
+        </tr>
+        <tr id="inside-content">
+          <td>Karnataka</td>
+          <td>VIT Bangalore</td>
+          <td>2000+</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
